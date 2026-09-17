@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171817">
+  <meta name="description" content="Xbox Developer Mode apps and game ports from BanditVault">
+  <title>Raccoon Dev Store</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css?v=4">
+  <script type="module" src="assets/store.js?v=4"></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalogue">Skip to the catalogue</a>
+
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Raccoon Dev Store home">
+      <img class="brand__mark" src="assets/logo.png" alt="">
+      <span class="brand__copy">
+        <strong>Raccoon</strong>
+        <span>Dev Store</span>
+      </span>
+    </a>
+
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Xbox Dev Mode downloads</h1>
+      <p>Apps, emulators and game ports from BanditVault.</p>
+    </section>
+
+    <section class="catalogue" id="catalogue" aria-labelledby="catalogue-title">
+      <div class="section-heading">
+        <h2 id="catalogue-title">Apps</h2>
+        <p id="result-count" role="status" aria-live="polite">Loading catalogue</p>
+      </div>
+
+      <div class="catalogue-tools">
+        <label class="search">
+          <span class="visually-hidden">Search builds</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg>
+          <input id="search" type="search" placeholder="Search apps and ports" autocomplete="off">
+        </label>
+
+        <label class="sort">
+          <span>Sort</span>
+          <select id="sort">
+            <option value="updated">Recently updated</option>
+            <option value="title">A to Z</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="category-list" id="categories" aria-label="Filter by category"></div>
+      <div class="project-grid" id="project-grid" aria-busy="true"></div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <h3 id="empty-title">No apps yet</h3>
+        <p id="empty-copy">Builds will appear here when they are added.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="about">
+    <p>Raccoon Dev Store</p>
+    <p>Not affiliated with Microsoft or Xbox.</p>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="Close project details">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19"/></svg>
+      </button>
+      <div class="dialog-cover" id="dialog-cover"></div>
+      <div class="dialog-content">
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-summary" id="dialog-summary"></p>
+        <dl class="project-meta" id="dialog-meta"></dl>
+        <div class="project-about" id="dialog-about"></div>
+        <div class="download-list" id="dialog-downloads"></div>
+        <a class="source-link" id="dialog-source" target="_blank" rel="noreferrer" hidden>
+          View source code
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>

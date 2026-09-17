@@ -1,0 +1,25 @@
+{
+  "name": "Bandit Launcher",
+  "summary": "Minecraft Java Edition launcher for Xbox Developer Mode.",
+  "version": "1.0.0.57",
+  "updated": "2026-09-17",
+  "developer": "BanditVault",
+  "category": "Game launcher",
+  "compatibility": ["Xbox Series S", "Xbox Series X"],
+  "cover": "cover.png",
+  "about": "about.md",
+  "downloads": [
+    {
+      "label": "Download APPX",
+      "url": "https://github.com/veroxsity/JavaUWP/releases/download/nightly/BanditLauncher-nightly.appx",
+      "architecture": "x64",
+      "size": "438 MB"
+    },
+    {
+      "label": "SHA-256 checksum",
+      "url": "https://github.com/veroxsity/JavaUWP/releases/download/nightly/BanditLauncher-nightly.sha256",
+      "size": "95 B"
+    }
+  ],
+  "source": "https://github.com/veroxsity/JavaUWP"
+}

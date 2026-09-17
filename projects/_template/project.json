@@ -1,0 +1,25 @@
+{
+  "name": "Project name",
+  "summary": "One short sentence explaining what the app does.",
+  "version": "1.0.0",
+  "updated": "2026-09-17",
+  "developer": "BanditVault",
+  "category": "Game port",
+  "compatibility": ["Xbox Series X|S", "Xbox One"],
+  "cover": "cover.png",
+  "about": "about.md",
+  "downloads": [
+    {
+      "label": "Download APPX",
+      "file": "Project_1.0.0_x64.appx",
+      "architecture": "x64",
+      "size": "42 MB"
+    },
+    {
+      "label": "Download from GitHub",
+      "url": "https://github.com/example/project/releases/latest",
+      "architecture": "x64"
+    }
+  ],
+  "source": ""
+}
