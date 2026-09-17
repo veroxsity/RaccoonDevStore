@@ -1,0 +1,26 @@
+{
+  "name": "TModLoaderUWP",
+  "summary": "Terraria and tModLoader on Xbox, with the in-game Mod Browser.",
+  "version": "1.0.0.0",
+  "updated": "2026-09-17",
+  "developer": "BanditVault",
+  "category": "Game port",
+  "compatibility": ["Xbox Series S", "Xbox Series X"],
+  "cover": "cover.png",
+  "about": "about.md",
+  "downloads": [
+    {
+      "label": "Download MSIX",
+      "file": "TModLoaderUWP_1.0.0.0_x64.msix",
+      "architecture": "x64",
+      "size": "57.5 MB"
+    },
+    {
+      "label": "Download VCLibs dependency",
+      "file": "Microsoft.VCLibs.x64.14.00.appx",
+      "architecture": "x64",
+      "size": "880 KB"
+    }
+  ],
+  "source": ""
+}
