@@ -4,7 +4,7 @@ Xbox Developer Mode apps and game ports from BanditVault, listed in one place.
 
 Live at https://veroxsity.github.io/RaccoonDevStore/
 
-Downloads point at each project's own GitHub release rather than a mirror, and listings link to the source where the code is public.
+Downloads are hosted here or point at the project's own release. Listings link to the source where the code is public.
 
 ## Apps
 
