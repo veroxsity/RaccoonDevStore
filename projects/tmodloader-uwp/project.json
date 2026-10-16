@@ -1,5 +1,6 @@
 {
   "name": "TModLoaderUWP",
+  "package": "BanditVault.TModLoaderUWP",
   "summary": "Terraria and tModLoader on Xbox, with the in-game Mod Browser.",
   "version": "1.0.0.0",
   "updated": "2026-09-17",
