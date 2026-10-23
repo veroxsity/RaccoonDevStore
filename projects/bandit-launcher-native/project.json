@@ -2,8 +2,8 @@
   "name": "Bandit Launcher (Native Mouse)",
   "package": "Microsoft.MicrosoftEdge.BanditLauncher",
   "summary": "Bandit Launcher with native mouse support, as its own package.",
-  "version": "1.0.0.99",
-  "updated": "2026-09-19",
+  "version": "1.0.0.108",
+  "updated": "2026-10-23",
   "developer": "BanditVault",
   "category": "Game launcher",
   "compatibility": ["Xbox Series S", "Xbox Series X"],
@@ -23,7 +23,7 @@
     {
       "label": "SHA-256 checksum",
       "url": "https://github.com/veroxsity/JavaUWP/releases/download/nightly-native/BanditLauncherNative-nightly.sha256",
-      "size": "95 B"
+      "size": "101 B"
     }
   ],
   "source": "https://github.com/veroxsity/JavaUWP"
